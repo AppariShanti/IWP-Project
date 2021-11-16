@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:#fefeff;
+    font-size: 20px;
+}
+
+.register-bar
+{
+    color: white;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    width: 33.1%;
+    background-color: darkcyan;
+    margin-left: 33.45% ;
+    margin-top: 5% ;
+    margin-bottom: 2px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+form{
+    width: 30%;
+    margin-left: 35%;
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 0px auto;
+}
+
+.input-group{
+    margin: 10px 0px 10px 0px;
+}
+
+.input-group label{
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input{
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.input-group .btn{
+    padding: 10px;
+    color: white;
+    background-color: darkcyan;
+    font: 15px;
+    border-radius: 5px;
+    border: none;
+}
+.input-group .btn:hover{
+    background-color: rgb(0, 139, 139);
+    cursor: pointer;
+}
+a{
+    color: darkcyan;
+    font-weight: normal;
+    text-decoration-line: none;
+}
+a:hover{
+    text-decoration-line: underline;
+    color: darkblue;
+}
+
+.errors{
+    
+    border: 1px solid #a94442;
+    background-color: #f2dede;
+    color: #a94442;
+    padding: 5px;
+    font-size: 15px;
+    margin: 2px;
+    width: 92%;
+    border-radius: 5px;
+}
